@@ -50,7 +50,7 @@ app.db.open(function(err) {
       // Authenticate
       app.db.authenticate('james', '1password2', function(err, result) {
         //assert.equal(true, result);
-        console.log(result);
+        console.log('james' + result);
         console.log('err: ' + err);
         //db.close();
       });
